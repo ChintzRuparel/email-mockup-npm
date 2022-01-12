@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mail Mockup</title>
+
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .row {
+          display: flex;
+        }
+        
+        .column {
+          flex: 50%;
+
+        }
+        
+        .text-box{
+        background-color: #331928;
+        width: 90%;
+        padding: 10px;
+        margin: 20px;
+        }
+
+        .mail-container{
+            background-color: #e6eddf;
+            width: 60%;
+            padding: 50px;
+            margin: 20px;
+        }
+        .rate-buttons{
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            color: white;
+            background-color:#4f4d4c;
+        }
+        
+        </style>
+
+</head>
+<body>
+<!-- <body style="background-color: #e6eddf;"> -->
+    <div class="mail-container">
+    <img style="width: 100px;height: 100px;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623396116260_smiley.png" alt="emoticon">
+    <br>
+    <h3 style="font-family: Arial, Helvetica, sans-serif;"><b>Hey ${First Name},</b></h3>
+    <br>
+
+    <div class="row">
+        <div  class="column">
+            <p style="font-family: Arial, Helvetica, sans-serif;">
+                We sincerely hope that you are having an amazing time using our product!<br><br>
+                We are always looking for ways to improve, which is why we'd be grateful if
+                you could fill out this short survey. We promise it will take only a few minutes.
+            </p>
+        </div>
+        <div class="column">
+            <img style=" width: 200 px; height: 125px;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395981862_valentine-gift-and-rose.png" alt="">
+        </div>
+      </div>
+
+      <div style="color:white;font-family: Arial, Helvetica, sans-serif;" class="text-box">
+          <center>
+        <p style="font-size: 36px;">NPS Survey</p>
+          </center>
+        <p>How likely would you recommend this to a friend or colleague?</p>
+        <button class="rate-buttons"> 1</button>
+        <button class="rate-buttons"> 2</button>
+        <button class="rate-buttons"> 3</button>
+        <button class="rate-buttons"> 4</button>
+        <button class="rate-buttons"> 5</button>
+        <button class="rate-buttons"> 6</button>
+        <button class="rate-buttons"> 7</button>
+        <button class="rate-buttons"> 8</button> 
+        <button class="rate-buttons"> 9</button>
+        <button class="rate-buttons"> 10</button>
+        <br>
+        <p>Do you like the product?</p>
+        <button style="background-color:  #331928; box-shadow: none; border: none;">
+            <img style="width: 40px; height: 40px;" src="https://cdn-icons.flaticon.com/png/512/707/premium/707699.png?token=exp=1641974359~hmac=90f87d90ceb2e768a347286fee2a6913" alt="like">
+        </button>
+      </div>
+    </div>  
+    
+</body>
+</html>
