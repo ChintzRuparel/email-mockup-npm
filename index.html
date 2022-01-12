@@ -7,6 +7,12 @@
     <title>Mail Mockup</title>
 
     <style>
+        .mail-container{
+            background-color: #e6eddf;
+            width: 60%;
+            padding: 50px;
+            margin: 20px;
+        }
         * {
           box-sizing: border-box;
         }
@@ -19,20 +25,14 @@
           flex: 50%;
 
         }
-        
         .text-box{
         background-color: #331928;
-        width: 90%;
+        width: 80%;
         padding: 10px;
         margin: 20px;
         }
 
-        .mail-container{
-            background-color: #e6eddf;
-            width: 60%;
-            padding: 50px;
-            margin: 20px;
-        }
+        
         .rate-buttons{
             width: 40px;
             height: 40px;
@@ -40,7 +40,18 @@
             color: white;
             background-color:#4f4d4c;
         }
-        
+        .emoji-buttons{
+            background-color: #331928;
+            width:auto;
+            border: none;
+            font-size: 30px;
+        }
+        .products-box{
+        background-color: white;
+        width: 80%;
+        padding: 10px;
+        margin: 20px;
+        }
         </style>
 
 </head>
@@ -85,8 +96,37 @@
         <button style="background-color:  #331928;  border-color: #331928; border-width: 0.001px;">
         <img style="width: 40px; height: 40px;" src="https://cdn-icons-png.flaticon.com/512/456/456115.png" alt="like">
         </button>
+
+        <button style="background-color:  #331928;  border-color: #331928; border-width: 0.001px;padding-left: 10px;">
+        <img style="width: 40px; height: 40px;" src="https://cdn-icons.flaticon.com/png/512/707/premium/707699.png?token=exp=1642013875~hmac=66ff671368772bb47340f38790341122" alt="like">
+        </button>
+
+        <p>Overall, how satisfied or dissatisfied are you with our company?</p>
+        <button class="emoji-buttons">😣</button>
+        <button class="emoji-buttons">😐</button>
+        <button class="emoji-buttons">🙂</button>
+        <button class="emoji-buttons">🤩</button>
+        <button class="emoji-buttons">🚀</button>
+
+        <center>
+            <button style="width: 180px; height: 51px; background-color: #FFC24F;border-radius: 10px;">
+                Submit & Next
+            </button>
+        </center>
       </div>
-    </div>  
-    
+      
+   <div class="products-box">
+    <h1 style="font-family: Arial, Helvetica, sans-serif; color: #444444; font-size: 21px;">Here are some of our recommendations for you</h1>
+    <hr style="color: #444444 ;">
+    <center>
+    <img style="width: 100px; height: 100px ;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395511027_Star.png" alt="">
+      <p style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Product 1</p>
+      <p style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Add a detailed description about the product on the top</p>
+  </center>
+  </div>
+</div>
 </body>
 </html>
+
+
+
