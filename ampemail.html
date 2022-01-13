@@ -1,22 +1,15 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html ⚡4email data-css-strict lang="en" >
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mail Mockup</title>
-    <script async src="https://cdn.ampproject.org/v0.js"></script>
-    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
-    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
-    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
-    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
-
+   <script async src="https://cdn.ampproject.org/v0.js"></script>
+		
     <style amp4email-boilerplate>body{visibility:hidden}</style>
 
     <style amp-custom>
         .mail-container{
             background-color: #e6eddf;
-            width: 60%;
+            width: 100%;
             padding: 50px;
             margin: 20px;
         }
@@ -71,7 +64,8 @@
 <body>
 <!-- <body style="background-color: #e6eddf;"> -->
     <div class="mail-container">
-    <img style="width: 100px;height: 100px;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623396116260_smiley.png" alt="emoticon">
+    <amp-img  src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623396116260_smiley.png" alt="emoticon" width="100" height= "100">
+      </amp-img>
     <br>
     <h3 style="font-family: Arial, Helvetica, sans-serif;"><b>Hey ${First Name},</b></h3>
     <br>
@@ -85,14 +79,16 @@
             </p>
         </div>
         <div class="column">
-            <img style=" width: 200 px; height: 125px;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395981862_valentine-gift-and-rose.png" alt="">
-        </div>
+            <amp-img width= "200px" height= "125px" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395981862_valentine-gift-and-rose.png" alt="">
+        	</amp-img>
+              </div>
       </div>
 
       <div style="color:white;font-family: Arial, Helvetica, sans-serif;" class="text-box">
-          <center>
-        <p style="font-size: 36px;">NPS Survey</p>
-          </center>
+          
+        <p style="font-size: 36px; max-width:250px;
+  margin:2em auto;">NPS Survey</p>
+          
         <p>How likely would you recommend this to a friend or colleague?</p>
         <button class="rate-buttons"> 1</button>
         <button class="rate-buttons"> 2</button>
@@ -107,12 +103,14 @@
         <br>
         <p>Do you like the product?</p>
         <button style="background-color:  #331928;  border-color: #331928; border-width: 0.001px;">
-        <img style="width: 40px; height: 40px;" src="https://cdn-icons-png.flaticon.com/512/456/456115.png" alt="like">
-        </button>
+        <amp-img width="40px" height="40px" src="https://cdn-icons-png.flaticon.com/512/456/456115.png" alt="like">
+       </amp-img>
+          </button>
 
         <button style="background-color:  #331928;  border-color: #331928; border-width: 0.001px;padding-left: 10px;">
-        <img style="width: 40px; height: 40px;" src="https://cdn-icons.flaticon.com/png/512/707/premium/707699.png?token=exp=1642013875~hmac=66ff671368772bb47340f38790341122" alt="like">
-        </button>
+        <amp-img width="40px" height="40px" src="https://cdn-icons.flaticon.com/png/512/707/premium/707699.png?token=exp=1642013875~hmac=66ff671368772bb47340f38790341122" alt="like">
+        </amp-img>
+          </button>
 
         <p>Overall, how satisfied or dissatisfied are you with our company?</p>
         <button class="emoji-buttons">😣</button>
@@ -121,39 +119,41 @@
         <button class="emoji-buttons">🤩</button>
         <button class="emoji-buttons">🚀</button>
 
-        <center>
-            <button style="width: 180px; height: 51px; background-color: #FFC24F;border-radius: 10px;">
+        
+            <button style="width: 180px; height: 51px; background-color: #FFC24F;border-radius: 10px; max-width:250px;
+  margin:2em auto;">
                 Submit & Next
             </button>
-        </center>
+        
       </div>
       
    <div class="products-box">
     <h1 style="font-family: Arial, Helvetica, sans-serif; color: #444444; font-size: 21px;">Here are some of our recommendations for you</h1>
     <hr style="color: #444444 ;">
-    <center>
-    <img style="width: 100px; height: 100px ;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395511027_Star.png" alt="product-image">
+    
+    <amp-img style="max-width:250px;
+  margin:2em auto;"  width= "100px" height="100px" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395511027_Star.png" alt="product-image">
+      </amp-img>
       <p style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Product 1</p>
       <p style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Add a detailed description about the product on the top</p>
       <button style="width: 128px; height: 38px;background-color: #331928; color: white; border-radius: 9px;">View More</button>
-  </center>
+  
   <br>
-  <center>
-    <img style="width: 100px; height: 100px ;" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395525151_Crown.png" alt="product-image">
+    <amp-img style="max-width:250px;
+  margin:2em auto;" width="100px" height="100px" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623395525151_Crown.png" alt="product-image">
+     </amp-img>
       <p style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Product 2</p>
       <p style="font-size: 16px; font-family: Arial, Helvetica, sans-serif;">Add a detailed description about the product on the top</p>
       <button style="width: 128px; height: 38px;background-color: #331928; color: white; border-radius: 9px;">View More</button>
-  </center>
 
   </div>
     <!-- <center> -->
-    <img style="width: 100px;height: 100px; " src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623396116260_smiley.png" alt="emoticon">
-    <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #444444;">800 Bordway Suit 1500 New York,<br> NY 000423, USA</p>
-    <p style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;">Call us - 0800 000 900</p>
+
+    <amp-img width="100px" height="100px" src="https://mmstorageprod1.blob.core.windows.net/userdata/2c28dec6-c21c-4385-a91f-96e9a90c404f%2Ftemplates%2F1623396116260_smiley.png" alt="emoticon">
+    </amp-img>
+      <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #444444;vertical-align:middle; margin:0px 210px">800 Bordway Suit 1500 New York,<br> NY 000423, USA</p>
+    <p style="font-family: Arial, Helvetica, sans-serif;font-size: 14px;vertical-align:middle; margin:0px 210px">Call us - 0800 000 900</p>
   </div>
 
 </body>
 </html>
-
-
-
